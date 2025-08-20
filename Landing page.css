@@ -1,0 +1,728 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.Container {
+  font-family: "Inter", sans-serif;
+}
+.Hero-section {
+  height: 702px;
+  width: 100%;
+  background-image: url(./Assets/Rectangle\ 1095.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  padding: 32px 38px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 800;
+  font-style: Extra Bold;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+header button {
+  background-color: #0788ff;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 128px;
+  border-radius: 8px;
+  border: none;
+}
+
+header button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Hero-section h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  max-width: 536px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 145px;
+  margin-left: 38px;
+}
+
+.Search {
+  width: 98%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 32px 36px 57px;
+  align-items: left;
+  display: block;
+  border: none;
+  border-radius: 8px;
+  margin-top: 122px;
+  box-shadow: 0px 2px 16px 0px #00000014;
+}
+
+.Search-Hotels h5 {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 4px;
+}
+
+.Search-Hotels p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.Locate label,
+.date label {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.form-group {
+  margin-top: 30px;
+  display: flex;
+  height: 91px;
+  width: 90%;
+  justify-content: space-between;
+}
+.form-group button {
+  height: 60px;
+  width: 170px;
+  color: #ffffff;
+  background-color: #0788ff;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 31px;
+}
+
+.Location {
+  background: url("./Assets/Vector\ \(1\).png") no-repeat 10px center;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fafafa;
+  width: 320px;
+}
+
+.Date {
+  background: url("./Assets/uim_calender.png") no-repeat 10px center;
+  padding-left: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fafafa;
+  width: 320px;
+}
+
+.choose-us {
+  margin-top: 197px;
+  text-align: center;
+}
+
+.choose-us h3 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #444343;
+}
+
+.first-cards {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: 56px auto;
+}
+
+.first-cards h5 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 23px;
+  margin-top: 44px;
+}
+
+.form-group p {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 122%;
+  letter-spacing: 1%;
+  text-align: center;
+  width: 298px;
+  margin-top: 23px;
+}
+
+.chef,
+.rooms,
+.payment {
+  width: 331px;
+  height: 295px;
+  box-shadow: 2px 2px 57px 3px #0000000d;
+  padding-top: 57px;
+}
+
+.Hotels-selection {
+  width: 90%;
+  margin: 155px auto;
+}
+.advert h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+}
+
+.advert p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  width: 580px;
+}
+
+.top button {
+  width: 170px;
+  height: 50px;
+  background: transparent;
+  color: #0788ff;
+  border: 1px solid #0788ff;
+  border-radius: 8px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.Cards {
+  height: 300px;
+  width: 270px;
+  box-shadow: 0px 2px 185px 3px #0000001a;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.Hotel h5 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 8px;
+}
+
+.Hotel p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.Hotel {
+  padding-left: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+.Resort-packages {
+  width: 90%;
+  height: 581px;
+  margin: 156px auto;
+  display: flex;
+  position: relative;
+}
+
+.Resort h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+
+.Resort p {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 451px;
+  color: #aeaeae;
+}
+
+.activities {
+  margin-top: 45px;
+  width: 294px;
+}
+
+.fun {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 46px;
+}
+
+.swim {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 1px #989898 solid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.beach {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 46px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.beach-vid {
+  width: 707px;
+  height: 438px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(./Assets/Rectangle\ 1107.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left-scroll {
+  width: 42px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #ffffff;
+  border: 1px #3f94b9 solid;
+  border-radius: 8px;
+  margin-right: 32px;
+}
+
+.right-scroll {
+  width: 42px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #3f94b9;
+  border: none;
+  border-radius: 8px;
+  margin-left: 32px;
+}
+
+.beaches {
+  text-align: center;
+  width: 399px;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.beaches p {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 25px;
+}
+
+.interaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 142px;
+}
+
+.scroll-sect {
+  width: 771px;
+  height: 362px;
+  background-color: #e0eef6;
+  display: flex;
+  align-items: flex-end;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 60px;
+  position: absolute;
+  left: 368px;
+  top: 218px;
+  z-index: -1;
+  padding-bottom: 14px;
+}
+
+.stats {
+  width: 100%;
+  /* height: 440px; */
+  background-color: #176dbd;
+  padding-top: 71px;
+  margin-top: 155px;
+}
+
+.stats h4 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto 88px;
+  width: 70%;
+  color: #ffffff;
+}
+.approximate {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 88px;
+}
+
+.approximate h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-bottom: 117px;
+}
+
+.approximate p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.reviews h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.left-slide {
+  width: 42px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #ffffff;
+  border: 1px #3f94b9 solid;
+  border-radius: 8px;
+}
+
+.right-slide {
+  width: 42px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #3f94b9;
+  border: none;
+  border-radius: 8px;
+}
+
+.clients-reviews {
+  margin: 155px auto;
+  width: 90%;
+}
+
+.reviews {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.slides {
+  display: flex;
+  gap: 8px;
+}
+
+.glide-cards {
+  width: 532px;
+  box-shadow: 0px 2px 78px 0px #0000001a;
+  padding: 36px 49px 36px 17px;
+}
+
+.glide-cards h5 {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.glide-cards p {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #989898;
+  max-width: 466px;
+  margin-top: 31px;
+}
+
+.descriptions h6 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.descriptions i {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.glide {
+  margin-top: 52px;
+  width: 100%;
+  display: flex;
+  gap: 48px;
+}
+
+.glide-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 63px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Reach-out h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.Reach-out p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 463px;
+  margin: 17px auto;
+}
+
+.Reach-out {
+  text-align: center;
+  width: 100%;
+  margin: 155px auto;
+}
+
+.subscription {
+  margin-top: 53px;
+}
+
+.subscription input {
+  text-align: center;
+  height: 50px;
+  width: 342px;
+  border-radius: 8px;
+  border: 1px #989898 solid;
+}
+
+.subscription input::placeholder {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.subscription button {
+  color: white;
+  background-color: #0788ff;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-left: 43px;
+}
+footer {
+  width: 100%;
+  padding-top: 36px;
+  padding-bottom: 92.08px;
+  background-color: #00396d;
+  margin-top: 155px;
+}
+.footer-container {
+  display: flex;
+  width: 92%;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+.MegaHotel p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f1f1f1;
+  margin-top: 44px;
+  width: 176px;
+}
+
+.icons {
+  display: flex;
+  width: 102px;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+
+.footer-container h6 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f1f1f1;
+}
+.footer-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 44px;
+}
+
+.footer-container li {
+  list-style: none;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f1f1f1;
+}
+
+.E-mail p,
+.tel p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f1f1f1;
+}
+
+.E-mail,
+.tel {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.get-in-touch {
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
