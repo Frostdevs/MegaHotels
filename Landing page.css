@@ -794,7 +794,7 @@ footer {
     width: 400px;
   }
   .Resort-packages p {
-    font-size: 14px;
+    display: none;
   }
   .top button {
     display: none;
