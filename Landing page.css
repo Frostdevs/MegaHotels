@@ -84,12 +84,11 @@ nav button a {
   margin-top: 145px;
   margin-left: 38px;
 }
-@media screen and (max-width:750px){
+@media screen and (max-width: 750px) {
   .Hero-section h1 {
     font-size: 30px;
     margin-top: 80px;
   }
-
 }
 .Search {
   width: 98%;
@@ -732,7 +731,15 @@ footer {
   gap: 12px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Search {
+    height: 100vh;
+  }
   .scroll-sect {
     display: none;
   }
@@ -750,60 +757,59 @@ footer {
     gap: 20px;
     justify-content: center;
   }
-}
 
-@media screen and (max-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
+  .Hotel h5 {
+    font-size: 16px;
+  }
+  .Hotel p {
+    font-size: 14px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .advert h1 {
+    font-size: 30px;
+  }
+  .advert p {
+    font-size: 15px;
+    width: 50%;
+  }
+  .Resort-packages {
+    flex-direction: column;
   }
   .beach-vid {
     display: none;
+    width: 400px;
+    height: 400px;
   }
-}
-@media screen and (max-width: 760px) {
-  .grid {
-    display: flex;
+  .reviews {
     flex-direction: column;
   }
-.Hotel h5 {
-  font-size: 16px;
-}
-.Hotel p {
-  font-size: 10px;
-  width: 50%;
-}
-.footer-container {
-  flex-direction: column;
-  gap: 30px;
-}
-.advert h1 {
-  font-size: 20px;
-}
-.advert p {
-  font-size: 10px;
-  width: 50%;
-}
-.Resort-packages {
-  flex-direction: column;
-}
-.beach-vid {
-  display: none;
-  width: 400px;
-  height: 400px;
-}
-.reviews {
-  flex-direction: column;
-}
-.glide {
-  flex-direction: column;
-  display: none;
-}
-.glide-cards {
-  width: 400px;
-}
-.Resort-packages p {
-  font-size: 6px;
-}
+  .glide {
+    flex-direction: column;
+    display: none;
+  }
+  .glide-cards {
+    width: 400px;
+  }
+  .Resort-packages p {
+    font-size: 14px;
+  }
+  .top button {
+    display: none;
+  }
+  .approximate {
+    flex-direction: column;
+    text-align: center;
+  }
+  .reviews {
+    display: none;
+  }
+  .footer-container ul {
+    margin-top: 22px;
+  }
+  .get-in-touch {
+    margin-top: 29px;
+  }
 }
