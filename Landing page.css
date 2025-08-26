@@ -131,7 +131,7 @@ nav button a {
   justify-content: space-between;
 }
 
-.form-group input:focus {
+input:focus {
   outline: none;
   border: 1px solid whitesmoke;
   box-shadow: 0 0 5px whitesmoke;
@@ -149,6 +149,11 @@ nav button a {
   align-items: center;
   gap: 12px;
   margin-top: 31px;
+}
+input,
+textarea,
+select {
+  font-size: 16px;
 }
 
 .Location {
@@ -748,7 +753,7 @@ footer {
     color: white;
   }
   .Search input {
-    width: 70%;
+    width: 95%;
   }
   .Search button {
     padding: 20px;
@@ -864,7 +869,7 @@ footer {
     width: 150px;
   }
   .subscription input::placeholder {
-    font-size: 15px;
+    font-size: 12px;
   }
   .approximate {
     flex-direction: column;
